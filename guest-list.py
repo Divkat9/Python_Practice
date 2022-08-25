@@ -1,0 +1,28 @@
+invitees = ['tulasi', 'kavya', 'budhi']
+invitee1 = invitees[0]
+invitee2 = invitees[1]
+invitee3 = invitees[2]
+print (f"{invitee1} you are invited to the party!")
+print (f"{invitee2} is unable to make to the party!")
+print (f"{invitee3} you are invited to the party!")
+invitees.remove('kavya')
+invitees.insert(2, 'srikanth')
+print (invitees[0], invitees[1], invitees[2])
+print ('found a bigger table and will invite more guests')
+invitees.insert(0, 'arjun')
+invitees.insert(2, 'gus')
+invitees.append('nova')
+print (invitees)
+print ("Uh Oh the dinner table won't be ready on time and I should cancel it")
+removed = invitees.pop(0)
+print (f"{removed} sorry for cancelling this, we'll plan it another time")
+removed = invitees.pop(0)
+print (f"{removed} sorry for cancelling this, we'll plan it another time")
+removed = invitees.pop(1)
+print (f"{removed} sorry for cancelling this, we'll plan it another time")
+removed = invitees.pop(1)
+print (f"{removed} sorry for cancelling this, we'll plan it another time")
+print (f"{invitees} you are still invited to join us")
+invitees.remove('gus')
+invitees.remove('nova')
+print(invitees)
